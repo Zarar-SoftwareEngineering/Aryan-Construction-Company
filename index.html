@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aryan Construction Company - Innovative construction services for Pakistani government tenders and infrastructure projects.">
+    <meta name="keywords" content="construction company, Pakistani tenders, infrastructure projects, civil engineering">
+    <title>Aryan Construction Company | Building Pakistan's Future</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo">Aryan <span>Construction</span></div>
+            <ul class="nav-links">
+                <li><a href="#home" aria-label="Go to Home section">Home</a></li>
+                <li><a href="#about" aria-label="Go to About Us section">About Us</a></li>
+                <li><a href="#services" aria-label="Go to Our Services section">Our Services</a></li>
+                <li><a href="#projects" aria-label="Go to Projects section">Projects</a></li>
+                <li><a href="#tenders" aria-label="Go to Tenders section">Tenders</a></li>
+                <li><a href="#contact" aria-label="Go to Contact section">Contact</a></li>
+            </ul>
+            <div class="burger" aria-label="Toggle navigation menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+
+        <section id="home" class="home">
+            <div class="home-content">
+                <h1>Welcome to <span>Aryan Construction Company</span></h1>
+                <p>We deliver reliable construction solutions, specializing in Pakistani government tenders and infrastructure projects.</p>
+                <a href="#services" class="btn" aria-label="Explore our services">Explore Services</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/construction.jpg" alt="Construction site showcasing infrastructure projects" loading="lazy">
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About <span>Us</span></h2>
+            <div class="about-content">
+                <div class="about-split">
+                    <div class="about-left">
+                        <p>Aryan Construction Company is dedicated to building Pakistan's future through quality infrastructure. We focus on government tenders and sustainable development.</p>
+                    </div>
+                    <div class="about-right">
+                        <ul>
+                            <li><strong>Reliability</strong>: Proven expertise in civil engineering.</li>
+                            <li><strong>Quality</strong>: Ensuring durable and compliant projects.</li>
+                            <li><strong>Partnership</strong>: Collaborating with government and clients.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="owner-info">
+                    <h3>Muhammad Salim Khan</h3>
+                    <p><strong>Founder & Senior Civil Engineer</strong></p>
+                    <p>Civil Engineering degree from Kabul University, Afghanistan. Senior role at Saud Consultant Company. Experience in Balochistan, Quetta, Kashmir, and Swat (Kalam, Bahrain, Ushu).</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <h2>Our <span>Services</span></h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-building"></i>
+                    <h3>Infrastructure Development</h3>
+                    <p>Roads, bridges, and public facilities built to government standards.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>Civil Engineering</h3>
+                    <p>End-to-end engineering for residential and commercial projects.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-hard-hat"></i>
+                    <h3>Project Management</h3>
+                    <p>Efficient management ensuring timely and safe delivery.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Our <span>Projects</span></h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Balochistan Highway Project</h3>
+                    <p>Major highway construction under government tender.</p>
+                    <p class="testimonial">"Delivered on time and exceeded expectations." - Government Official</p>
+                </div>
+                <div class="project-card">
+                    <h3>Quetta Infrastructure Upgrade</h3>
+                    <p>Urban development and facility improvements.</p>
+                    <p class="testimonial">"Reliable and professional service." - Local Authority</p>
+                </div>
+                <div class="project-card">
+                    <h3>Swat Valley Projects</h3>
+                    <p>Sustainable construction in Kalam, Bahrain, and Ushu.</p>
+                    <p class="testimonial">"Eco-friendly and high-quality work." - Environmental Board</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="tenders" class="tenders">
+            <h2>Government <span>Tenders</span></h2>
+            <div class="tenders-content">
+                <p>We specialize in bidding and executing Pakistani government tenders. Our experience ensures successful outcomes.</p>
+                <p>Contact us for tender opportunities.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact <span>Us</span></h2>
+            <div class="contact-container">
+                <form class="contact-form" id="contactForm">
+                    <input type="text" id="name" placeholder="Your Name" required aria-describedby="nameError">
+                    <p class="error" id="nameError">Please enter a valid name.</p>
+                    <input type="email" id="email" placeholder="Your Email" required aria-describedby="emailError">
+                    <p class="error" id="emailError">Please enter a valid email address.</p>
+                    <textarea id="message" placeholder="Your Message" required aria-describedby="messageError"></textarea>
+                    <p class="error" id="messageError">Please enter a message.</p>
+                    <button type="submit" aria-label="Send your message">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <i class="fas fa-check-circle"></i>
+            <h3>Message Sent!</h3>
+            <p>Thank you for contacting Aryan Construction Company. We’ll get back to you soon.</p>
+            <button id="closePopup">OK</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
